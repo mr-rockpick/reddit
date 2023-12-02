@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'sinatra', '~> 2.0.1'
 gem 'haml'
 gem 'bson_ext'
 gem 'bcrypt'
 gem 'puma'
 gem 'mongo'
 gem 'json'
+gem 'sinatra'
+gem 'sinatra-contrib'
 
 group :development do
     gem 'capistrano',         require: false
